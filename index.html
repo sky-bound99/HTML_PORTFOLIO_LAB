@@ -62,8 +62,6 @@
             <p>Listen to an audio clip below:</p>
             <audio controls>
                 <source src="audio.mp3" type="audio/mpeg">
-                <source src="audio.ogg" type="audio/ogg">
-                Your browser does not support the audio element.
             </audio>
         </section>
         <section>
@@ -71,20 +69,26 @@
             <p>Watch a short video sample below:</p>
             <video controls poster="poster.jpg" width="500">
                 <source src="video.mp4" type="video/mp4">
-                <source src="video.webm" type="video/webm">
-                Your browser does not support video.
             </video>
         </section>
         <section>
             <h5>Embedded Documents and Content</h5>
             <h6>Document Viewer (Object Tag)</h6>
             <p>Below is an embedded PDF document:</p>
-            <object data="document.pdf" type="application/pdf" width="500" height="300">
-                <p>Your browser does not support viewing PDFs directly. You can download it instead.</p>
+            <object 
+                data="https://google.com" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                type="text/html">
             </object>
             <h6>Interactive Media (Embed Tag)</h6>
             <p>Below is an embedded media file:</p>
-            <embed src="graphic.swf" type="application/x-shockwave-flash" width="500" height="200">
+            <embed 
+                  src="https://youtube.com" 
+                  width="560" 
+                  height="315" 
+                  type="text/html">
             <h6>External Webpage (Iframe Tag)</h6>
             <p>Below is an embedded interactive map:</p>
             <iframe src="https://maps.google.com/maps?q=Kathmandu&t=&z=13&ie=UTF8&iwloc=&output=embed" width="500" height="300" style="border:0;" loading="lazy"></iframe>
