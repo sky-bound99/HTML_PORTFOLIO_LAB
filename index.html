@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <header style="text-align: center;">
+    <header align="center">
         <img src="https://sky-bound99.github.io/HTML_PORTFOLIO_LAB/image.jpg" alt="A picture" width="200" height="200">
         <h1>Welcome to My Academic and Personal Website</h1>
         <h2>A Place to Share My Learning, and Skills</h2>
@@ -39,17 +39,21 @@
         <section>
             <h5>Audio Sample</h5>
             <p>Listen to an audio clip below:</p>
-            <audio controls>
-                <source src="audio.mp3" type="audio/mpeg">
-            </audio>
+            <center>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                </audio>
+            </center>
         </section>
 
         <section>
             <h5>Video Sample</h5>
             <p>Watch a short video sample below:</p>
-            <video controls poster="poster.jpg" width="500">
-                <source src="video.mp4" type="video/mp4">
-            </video>
+            <center>
+                <video controls poster="poster.jpg" width="500">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </center>
         </section>
 
         <section>
@@ -57,32 +61,37 @@
             
             <h6>Document Viewer (Object Tag)</h6>
             <p>Below is an embedded PDF document:</p>
-            <object 
-                data="sample.pdf" 
-                width="600" 
-                height="450" 
-                type="application/pdf">
-                <p>Your browser does not support PDFs. <a href="sample.pdf">Download the PDF</a>.</p>
-            </object>
+            <center>
+                <object 
+                    data="sample.pdf" 
+                    width="600" 
+                    height="450" 
+                    type="application/pdf">
+                    <p>Your browser does not support PDFs. <a href="sample.pdf">Download the PDF</a>.</p>
+                </object>
+            </center>
 
             <h6>Interactive Media (Embed Tag)</h6>
             <p>Below is an embedded media file:</p>
-            <embed 
-                src="video.mp4" 
-                width="560" 
-                height="315" 
-                type="video/mp4">
+            <center>
+                <embed 
+                    src="video.mp4" 
+                    width="560" 
+                    height="315" 
+                    type="video/mp4">
+            </center>
 
             <h6>External Webpage (Iframe Tag)</h6>
             <p>Below is an embedded interactive map:</p>
-            <iframe 
-                src="https://maps.google.com/maps?q=Kathmandu&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
-                width="500" 
-                height="300" 
-                style="border:0;" 
-                loading="lazy" 
-                title="Interactive Map of Kathmandu">
-            </iframe>
+            <center>
+                <iframe 
+                    src="https://maps.google.com/maps?q=Kathmandu&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
+                    width="500" 
+                    height="300" 
+                    loading="lazy" 
+                    title="Interactive Map of Kathmandu">
+                </iframe>
+            </center>
         </section>
     </main>
     
