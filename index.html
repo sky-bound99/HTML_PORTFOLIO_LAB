@@ -35,6 +35,37 @@
             <p><small>Note: I will update this page as I learn more in my classes.</small></p>
             <p>When I started, I tried <del>memorizing code</del> without practicing. Now, I have changed my plan to focus on <ins>solving problems and practically applying my web development project</ins>.</p>
         </section>
+        <section>
+            <h5>Quick Info About Me</h5>
+            <center>
+                <table border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Name</strong></td>
+                            <td>Aalok Aryal</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Field of Study</strong></td>
+                            <td>Computer Science &amp; Web Development</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Current Focus</strong></td>
+                            <td>HTML5, Problem Solving, &amp; Practical Projects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Primary Goal</strong></td>
+                            <td>To learn HTML and web development well</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </section>
 
         <section>
             <h5>Audio Sample</h5>
@@ -67,7 +98,7 @@
             <p>Below is an embedded PDF document:</p>
             <center>
                 <object 
-                    data="sample.pdf" 
+                    data="image.pdf" 
                     type="application/pdf" 
                     width="600" 
                     height="450">
@@ -78,11 +109,12 @@
             <h6>Interactive Media (Embed Tag)</h6>
             <p>Below is embedded media using the embed tag:</p>
             <center>
-                <embed 
-                    src="video.mp4" 
-                    type="video/mp4" 
-                    width="560" 
-                    height="315">
+              <center>
+    <video width="560" height="315" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</center>
             </center>
 
             <h6>External Webpage (Iframe Tag)</h6>
@@ -97,8 +129,35 @@
                 </iframe>
             </center>
         </section>
+        <section>
+            <h5>Contact Me</h5>
+            <center>
+                <form action="#" method="post">
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </p>
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </p>
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+            </center>
+        </section>
     </main>
-    <form action=""></form>
+    
     <footer>
         <h6>Thank You for Visiting</h6>
         <p><small>Thank you for taking the time to read my page. Have a good day.</small></p>
